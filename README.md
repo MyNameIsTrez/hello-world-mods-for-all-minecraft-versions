@@ -1,2 +1,3 @@
-# hello-world-mods-for-all-minecraft-versions
-Mods printing "Hello, world!" for all Minecraft versions.
+# "Hello, world!" mods for ***all*** Minecraft versions
+
+This repository provides mods that print "Hello, world!", for all Minecraft versions.
