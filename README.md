@@ -1,6 +1,6 @@
 # "Hello, world!" mods for ***all*** Minecraft versions
 
-This repository provides mods that print "Hello, world!", for all Minecraft versions.
+This repository's goal is to provides mods that print "Hello, world!", for ***all*** Minecraft versions.
 
 The sole goal of this repository is to cover the entire range of Minecraft versions, using as limited a number of frameworks as possible.
 
