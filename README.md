@@ -30,8 +30,8 @@ For example, Java 23 requires `distributionUrl=https\://services.gradle.org/dist
 It is fixed by running this:
 
 ```sh
-./gradlew --stop
-rm -rf ~/.gradle/caches/
+./gradlew --stop && \
+rm -rf ~/.gradle/caches/ && \
 ./gradlew --refresh-dependencies
 ```
 
