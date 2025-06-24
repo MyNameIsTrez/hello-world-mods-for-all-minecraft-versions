@@ -1,6 +1,6 @@
 # "Hello, world!" mods for ***all*** Minecraft versions
 
-The sole goal of this repository is to provides mods that print "Hello, world!", for ***all*** Minecraft versions, using as limited a number of frameworks as possible.
+The sole goal of this repository is to provides mods that print "Hello, world!", for ***all*** Minecraft versions, using as few frameworks as possible.
 
 For example, because Minecraft Forge supports a wider range of Minecraft versions than Fabric, this repository won't provide any Fabric (nor NeoForge) mods.
 
@@ -8,7 +8,7 @@ For Alpha and Beta-era modding, ModLoader seems like the best option, while Forg
 
 ## Usage
 
-You use this repository by `cd`ing into one of its game version directories in VS Code, and then running `./gradlew runClient` to launch the mod.
+You use this repository by `cd`ing into one of its game version directories, and then running `./gradlew runClient` to launch the mod.
 
 Older Minecraft Forge versions didn't use Gradle, so for those you'll need to follow the steps in the `README.md` of the game version directory instead.
 
