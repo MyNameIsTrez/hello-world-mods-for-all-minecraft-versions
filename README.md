@@ -6,13 +6,27 @@ For example, because Minecraft Forge supports a wider range of Minecraft version
 
 For Alpha and Beta-era modding, ModLoader seems like the best option, while Forge covers every Minecraft version after that.
 
+## Usage
+
 You use this repository by `cd`ing into one of its game version directories in VS Code, and then running `./gradlew runClient` to launch the mod.
 
 Older Minecraft Forge versions didn't use Gradle, so for those you'll need to follow the steps in the `README.md` of the game version directory instead.
 
 All of the game version directories are self-contained, meaning they are completely independent from each other and the rest of the repository.
 
-All mods work on Windows, Linux, and Mac.
+## Progress
+
+| Emoji | Meaning          |
+|-------|------------------|
+| ❌    | Not started      |
+| 🚧    | Doesn't work yet |
+| 🐘    | Not minimized    |
+| ✅    | Done             |
+
+| MC version directory     | Status | Windows | Linux | Mac |
+|--------------------------|--------|---------|-------|-----|
+| 2012_04_04-1.2.5         | 🚧     | ❌      | 🚧    | ❌  |
+| 2024_04_29-1.20.6        | 🐘     | ❌      | ✅    | ❌  |
 
 ## Troubleshooting
 
