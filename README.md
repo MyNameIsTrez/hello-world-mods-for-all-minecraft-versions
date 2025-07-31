@@ -16,17 +16,17 @@ All of the game version directories are self-contained, meaning they are complet
 
 ## Progress
 
-| Emoji | Meaning          |
-|-------|------------------|
-| ❌    | Not started      |
-| 🚧    | Doesn't work yet |
-| 🐘    | Not minimized    |
-| ✅    | Done             |
+| Status | Meaning                    |
+|--------|----------------------------|
+| ❌     | Not started                |
+| 🔗     | Requires existing launcher |
+| 🐘     | Mod is not minimal         |
+| ✅     | Done                       |
 
-| MC version directory     | Status | Windows | Linux | Mac |
-|--------------------------|--------|---------|-------|-----|
-| 2012_04_04-1.2.5         | 🚧     | ❌      | 🚧    | ❌  |
-| 2024_04_29-1.20.6        | 🐘     | ❌      | ✅    | ❌  |
+| MC version directory | Windows | Linux | Mac |
+|----------------------|---------|-------|-----|
+| 2012_04_04-1.2.5     | ❌      | 🔗    | ❌  |
+| 2024_04_29-1.20.6    | ❌      | 🐘    | ❌  |
 
 ## Troubleshooting
 
@@ -51,4 +51,4 @@ rm -rf ~/.gradle/caches/ && \
 
 ## To do
 
-- Set up a CI that automatically checks that every mod prints "Hello, world!" on Windows, Linux, and Mac.
+- Set up a CI that checks (nightly and on every commit) that every mod prints "Hello, world!" on Windows, Linux, and Mac.

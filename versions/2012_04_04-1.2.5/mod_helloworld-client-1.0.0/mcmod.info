@@ -1,0 +1,21 @@
+[
+{
+  "modid": "mod_HelloWorld",
+  "name": "Hello World",
+  "description": "Hello, world!",
+  "version": "1.0.0",
+  "mcversion": "1.2.5",
+  "url": "",
+  "updateUrl": "",
+  "authors": [
+    "MyNameIsTrez"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
